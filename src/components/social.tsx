@@ -14,7 +14,7 @@ const Social = memo(function Social() {
             width={300}
             height={150}
             alt="social logo"
-            src="/assets/Images/Grupo-144@2x 1.png"
+            src="/assets/Images/net (4).png"
           />
         </div>
         <div className=" w-full ">
