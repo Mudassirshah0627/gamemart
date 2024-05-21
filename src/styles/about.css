@@ -1,0 +1,14 @@
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/assets/Images/SectionTwo.png");
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  background: url("../../public/assets/Images/Contact.png");
+  background-position: center;
+  background-size: cover;
+}
+.test{
+  color: gray;
+}

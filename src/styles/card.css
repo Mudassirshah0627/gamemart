@@ -1,0 +1,56 @@
+.bg {
+  clip-path: polygon(
+    0 0,
+    65% 0,
+    68% 7%,
+    69% 13%,
+    73% 19%,
+    78% 23%,
+    86% 27%,
+    93% 27%,
+    100% 29%,
+    100% 99%,
+    71% 100%,
+    0 100%
+  );
+  @apply h-32 w-32 border-2;
+}
+
+.icon-st::before {
+  content: "";
+  @apply h-5 w-5 bg-white absolute -top-2 -left-5 rounded-full;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  position: relative;
+}
+
+.card-content {
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.card-bg {
+  background: url("../../public/assets/Images/night1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.linear {
+  background: linear-gradient(360deg, #211e21 4.23%, #0851df 103.53%);
+}
+.svg {
+  background: url("../../public/assets/Images/frame.png");
+  background-position: center;
+  background-size: cover;
+}

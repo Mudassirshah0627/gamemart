@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  .second {
+    background: url("../../public/assets/Images/Vector\ 4.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .first {
+    background: url("../../public/assets/Images/Vector\ 3.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
