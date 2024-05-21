@@ -51,8 +51,8 @@ const RecentlyAddedActions = memo(function RecentlyAddedActions() {
         <Carousel responsive={responsive}>
           {gameData.map((it) => {
             return (
-              <div key={it.id}>
-                <div className="slider-img h-[400px] relative w-[316px]  overflow-hidden">
+              <div key={it.id} className="flex flex-col items-center h-[480px]">
+                <div className="slider-img h-[400px]  w-[316px]  overflow-hidden relative">
                   <div className="card-image  h-[280px] flex items-center justify-center mb-">
                     <div className="w-[250px] h-[200px]  under-card flex justify-center "></div>
                   </div>
@@ -67,10 +67,10 @@ const RecentlyAddedActions = memo(function RecentlyAddedActions() {
                     </h1>
                   </div>
                 </div>
-                <div className="flex items-center justify-center ">
+                <div className="flex items-center justify-center w-[80%]  h-[45px]">
                   <button
                     type="button"
-                    className="bg-[#BF08DE] w-[80%]  h-[45px]  rounded-[14px] text-[12px] mt-4"
+                    className="bg-[#BF08DE] w-full h-full  rounded-[14px] text-[12px] mt-4"
                   >
                     Read more
                   </button>
