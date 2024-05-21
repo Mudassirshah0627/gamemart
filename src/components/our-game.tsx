@@ -12,7 +12,7 @@ const OurGame = memo(function OurGame() {
           initial={{ opacity: 0, scale: 0.5, x: -70 }}
           whileInView={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl font-bold text-white pt-12 "
+          className="text-3xl  font-bold text-white pt-12 "
         >
           Our Games
         </motion.h1>
@@ -47,8 +47,17 @@ const OurGame = memo(function OurGame() {
             />
           </div>
           <div className="absolute -bottom-4 sm:bottom-4">
-            <h1 className="text-2xl font-bold text-white    ">Blops</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-white    ">
+              Blops
+            </h1>
             <p className="text-white text-sm pr-12 ">
+              Blops are a unique and quirky collection of NFTs featuring bizarre
+              ranks available: Blop, Blop Adv, Blop Super, and Blop Ultra, with
+              increasing rarity and attributes as the rank increases. With a
+              limited supply of 1000, Blops offer collectors a chance to own a
+              rare and distinctive piece of digital art.
+            </p>
+            <p className="text-white text-sm pr-12 hidden md:flex ">
               Blops are a unique and quirky collection of NFTs featuring bizarre
               ranks available: Blop, Blop Adv, Blop Super, and Blop Ultra, with
               increasing rarity and attributes as the rank increases. With a

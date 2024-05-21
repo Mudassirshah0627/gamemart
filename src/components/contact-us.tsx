@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const ContactUs = memo(function ContactUs() {
   return (
-    <div className=" flex flex-col-reverse  lg:flex-row gap-x-12 px-4 lg:px-16 py-8 contact mt-4 rounded-[40px]  bg-[#2E2D2E]  border-2 border-[#424142]">
+    <div className="contact flex flex-col-reverse  lg:flex-row gap-x-12 px-4 lg:px-16 py-8  mt-4 rounded-[40px]  bg-[#2E2D2E]  border-2 border-[#424142]">
       <div className="flex flex-col w-full lg:w-1/2">
         <motion.h1
           initial={{ opacity: 0, scale: 0.5, x: -170 }}

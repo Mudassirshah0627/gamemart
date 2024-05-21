@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Cards = memo(function Cards() {
   return (
-    <div className="flex flex-wrap gap-y-4 justify-center gap-x-3">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-4 justify-center gap-x-3">
       {Carddata.map((items) => (
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: -170 }}
@@ -24,7 +24,7 @@ const Cards = memo(function Cards() {
               </h1>
             </div>
           </div>
-          <div className="w-64 h-72 clipPath  rounded-3xl   ">
+          <div className="w-full h-[22rem] clipPath  rounded-3xl   ">
             <Image
               width={200}
               height={100}

@@ -54,3 +54,18 @@
   background-position: center;
   background-size: cover;
 }
+.slider-img {
+  background: url("../../public/assets/Images/Vector\ 8.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-image {
+  background: url("../../public/assets/Images/Vector\ 13.png");
+  background-position: center;
+  background-size: cover;
+}
+.under-card {
+  background: url("../../public/assets/Images/game.png");
+  background-position: center;
+  background-size: cover;
+}

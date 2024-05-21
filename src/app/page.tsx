@@ -7,6 +7,7 @@ import Hero from "@/components/hero";
 import OurGame from "@/components/our-game";
 import RecentlyAddedActions from "@/components/recently-added-actions";
 import RecentlyAddedGames from "@/components/recently-added-game";
+import Social from "@/components/social";
 import { memo } from "react";
 
 const Home = memo(function Home() {
@@ -20,6 +21,7 @@ const Home = memo(function Home() {
       <RecentlyAddedGames />
       <RecentlyAddedActions />
       <ContactUs />
+      <Social />
       <Footer />
     </div>
   );

@@ -14,7 +14,7 @@ const AptechMedia = memo(function AptechMedia() {
             transition={{ duration: 1.2 }}
             className="text-white text-2xl font-bold"
           >
-            AptechMedia
+            Crypfennec
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, scale: 0.5, y: 70 }}

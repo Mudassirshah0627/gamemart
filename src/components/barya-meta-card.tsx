@@ -18,12 +18,14 @@ const BaryaMetaCard = () => {
             <div className="">
               <h1 className="text-xl font-bold text-center py-4">{it.title}</h1>
               <p className="text-white text-sm py-2">{it.details}</p>
-              <button
-                type="button"
-                className="bg-[#BF08DE] w-full h-[45px] 6 rounded-[14px] text-[12px] absolute bottom-1 left-0"
-              >
-                Read more
-              </button>
+              <div className="flex justify-center  w-full">
+                <button
+                  type="button"
+                  className="bg-button w-[80%] absolute bottom-0 h-[45px] 6 rounded-[14px] text-[12px]"
+                >
+                  Read more
+                </button>
+              </div>
             </div>
           </motion.div>
         );
