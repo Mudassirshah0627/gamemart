@@ -18,7 +18,7 @@ const Cards = memo(function Cards() {
           key={items.id}
         >
           <div>
-            <div className="absolute text-2xl text-green-100  -right-0  bg-blue-700 w-12 h-12 rounded-full m-auto ">
+            <div className="absolute text-2xl text-green-100  right-6 top-2  bg-blue-700 w-12 h-12 rounded-full m-auto ">
               <h1 className="flex items-stretch justify-center mt-3 ">
                 <BsFillSunriseFill />
               </h1>

@@ -67,7 +67,7 @@ const RecentlyAddedActions = memo(function RecentlyAddedActions() {
                     </h1>
                   </div>
                 </div>
-                <div className="flex items-center justify-center mr-12">
+                <div className="flex items-center justify-center ">
                   <button
                     type="button"
                     className="bg-[#BF08DE] w-[80%]  h-[45px]  rounded-[14px] text-[12px] mt-4"
